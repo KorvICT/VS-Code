@@ -51,12 +51,14 @@ $ (math) $
 
 ## Math!
 
-$(3w^2)(7w^2-2w-6)$
+$s^3(-s^3-7s^2+2s-6)$
 
 Try solving this $\uparrow$
 or this $\downarrow$
 
-$\frac{d}{dt}e^2t$
+$\frac{d}{dt}e^{2t}$
+
+or this: $\angle A = x,\angle B = 42^\circ,a=22m,b=17m$ Solve for $x$.
 
 Answers at the end...
 
@@ -97,3 +99,13 @@ if (password.length < 8) {
 ```
 ---
 
+---
+
+## Answers
+
+* ### 1
+  - $-s^6-7s^5+2s^4-6s^3$
+* ### 2
+  - $2*(e^{2t})$
+* ### 3
+  - $\angle A=60^\circ$
