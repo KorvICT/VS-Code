@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>lanNet - Dice Roller</title>
+    <link rel="icon" type="image/x-icon" href="assets/lanNet.svg">
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      li{
+        display: inline;
+        margin-right: 10px;
+        list-style-type: none;
+      }
+      ul{
+        margin: 0;
+        margin-top: 10px;
+      }
+    </style>
+    <script type="text/javascript">
+  var die1Img;
+  var die2Img;
+  var die3Img;
+  var die4Img;
+
+  function start()
+  {
+    die1Img = document.getElementById('die1');
+    die2Img = document.getElementById('die2');
+    die3Img = document.getElementById('die3');
+    die4Img = document.getElementById('die4');
+
+    var button = document.getElementById('roller');
+    button.addEventListener("click", roller, false);
+  }
+
+  function roller()
+  {
+    setImage(die1Img);
+    setImage(die2Img);
+    setImage(die3Img);
+    setImage(die4Img);
+  }
+
+  function setImage(dieImg)
+  {
+      var dieValue = Math.floor(Math.random() * 6 + 1);
+      dieImg.setAttribute("src", "dice/die" + dieValue + ".png");
+      dieImg.setAttribute("alt", "Die w/ value " + dieValue);
+  }
+
+  window.addEventListener("load", start, false);
+</script>
+  </head>
+  <body class="light">
+    <header>
+      <h1>Dice Roller</h1>
+    </header>
+    <nav>
+      <div class="menuitem">
+        <a href="home.html">Home</a>
+      </div>
+      <div class="menuitem">
+        <a href="music.html">Music</a>
+      </div>
+      <div class="menuitem isdrop">
+        <a href="#">Theme</a>
+        <ul class="dropdown">
+          <li class="dropdown-item">
+            <a id='dark' href="#" onclick="body.classList.replace('light', 'dark');">Dark</a>
+          </li>
+          <li class="dropdown-item">
+            <a id='light' href="#" onclick="body.classList.replace('dark', 'light');">Light</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menuitem">
+        <a href="projects.html">Projects</a>
+      </div>
+    </nav>
+    <form>
+      <input type="button" id="roller" value="Roll Dice">
+    </form>
+    <ul>
+      <li>
+        <img src="dice/blank.png" alt="blank image" id="die1">
+      </li>
+      <li>
+        <img src="dice/blank.png" alt="blank image" id="die2">
+      </li>
+      <li>
+        <img src="dice/blank.png" alt="blank image" id="die3">
+      </li>
+      <li>
+        <img src="dice/blank.png" alt="blank image" id="die4">
+      </li>
+    </ul>
+  </body>
+</html>

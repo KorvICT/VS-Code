@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>lanNet - Home</title>
+    <link rel="icon" type="image/x-icon" href="assets/lanNet.svg">
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      main{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class='dark'>
+    <header>
+      <h1>Welcome to lanNet</h1>
+    </header>
+    <nav>
+      <div class="menuitem">
+        <a href="dieroller.html">Dice Roller</a>
+      </div>
+      <div class="menuitem">
+        <a href="music.html">Music</a>
+      </div>
+      <div class="menuitem isdrop">
+        <a href="#">Theme</a>
+        <ul class="dropdown">
+          <li class="dropdown-item">
+            <a id='dark' href="#" onclick="body.classList.replace('light', 'dark');">Dark</a>
+          </li>
+          <li class="dropdown-item">
+            <a id='light' href="#" onclick="body.classList.replace('dark', 'light');">Light</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menuitem">
+        <a href="projects.html">Projects</a>
+      </div>
+    </nav>
+    <main>
+      <img src="assets/lanNet.svg" alt="lanNet Logo">
+      <h2>The lanNet Launch Pad</h2>
+      <p>Welcome to the lanNet Launch Pad. <br>
+        The central landing spot for lanNet. <br>
+        I am the creator. A leader in new
+       </p>
+    </main>
+  </body>
+</html>

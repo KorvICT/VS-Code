@@ -1,0 +1,8 @@
+ <!--Created for free with Tennessine's Flag Designer at https://tennessine.co.uk/flags/-->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="svg faded fadein" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="785" height="785" viewBox="0 0 100 100" id="svg"><g><g><path d="M0,0L100,0L100,100L0,100Z" fill="rgba(0,0,0,0)"/></g></g><g transform="rotate(90,49.994998931884766,50.0023307800293)" class="svg-group-clickable"><g><path d="M89.37 90.91a 50 50 0 1 1 0 -81.81534085976789a 45 45 0 1 0 0 81.81534085976789Z" fill="rgb(79,245,2)"/></g></g><g transform="rotate(270,49.994998931884766,50.0023307800293)" class="svg-group-clickable"><g><path d="M89.37 90.91a 50 50 0 1 1 0 -81.81534085976789a 45 45 0 1 0 0 81.81534085976789Z" fill="rgb(79,245,2)"/></g></g><g transform="rotate(0,50,50.12739372253418)" class="svg-group-clickable"><g><ellipse cx="50" cy="50.12739" rx="20" ry="20" fill="rgb(79,245,2)"/></g></g><defs id="font-data"><style xmlns="http://www.w3.org/1999/xhtml">svg * { }
+.svg-group-clickable { cursor: pointer; }
+svg &gt; g &gt; g { transform-origin: left top 0px; transform-box: fill-box; }
+.faded { opacity: 0.75; }
+.fadein { opacity: 1; transition: opacity 0.3s ease 0s; }
+</style></defs></svg>

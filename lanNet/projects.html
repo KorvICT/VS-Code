@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>lanNet - Projects</title>
+    <link rel="icon" type="image/x-icon" href="assets/lanNet.svg">
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      img{
+        width: 45%;
+      }
+      .korv{
+        display: flex;
+        justify-content: center;
+      }
+      .world{
+        text-align: center;
+      }
+      table{
+        width: 100%;
+      }
+      td{
+        text-align: center;
+        border: 2px solid var(--text);
+      }
+    </style>
+  </head>
+  <body class="dark">
+    <header>
+      <h1>Projects</h1>
+    </header>
+    <nav>
+      <div class="menuitem">
+        <a href="home.html">Home</a>
+      </div>
+      <div class="menuitem">
+        <a href="music.html">Music</a>
+      </div>
+      <div class="menuitem isdrop">
+        <a href="#">Theme</a>
+        <ul class="dropdown">
+          <li class="dropdown-item">
+            <a id='dark' href="#" onclick="body.classList.replace('light', 'dark');">Dark</a>
+          </li>
+          <li class="dropdown-item">
+            <a id='light' href="#" onclick="body.classList.replace('dark', 'light');">Light</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menuitem">
+        <a href="dieroller.html">Dice Roller</a>
+      </div>
+    </nav>
+    <main>
+      <div class="korv">
+        <img src="assets\Korv Flag.svg" alt="Crow Island Flag">
+      </div>
+      <article class="world">
+        <h2>Creating a World</h2>
+        <p>How do you make a world? <br>
+          I mean, how do you create a culture for a world? <br>
+          Art styles, language, music, games. How can you craft all of them? <br>
+          Here's an example: Crow Island. <br>
+          Crow Island is an island I created originally for a composition called "The Loop". <br>
+          The flag above is the flag of the entirety of the island. each of the flags below is about a specific location on the island.
+        </p>
+        <hr>
+      </article>
+      <table>
+        <tr>
+          <th>Flag</th>
+          <th>Flag Name</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>
+            <img src="assets\Korv Flag.svg" alt="Crow Island Flag">
+          </td>
+          <td>Unity Flag</td>
+          <td>Crow Island</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="assets\South.svg" alt="Southern Crow Flag">
+          </td>
+          <td>South Crow Flag</td>
+          <td>Pi'tao, Southern Crow Island</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="assets\West.svg" alt="Western Crow Flag">
+          </td>
+          <td>West Crow Flag</td>
+          <td>Tri'on, Western Crow Island</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="assets\East.svg" alt="Eastern Crow Flag">
+          </td>
+          <td>East Crow Flag</td>
+          <td>Su'on, Eastern Crow Island</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="assets\North.svg" alt="Northern Crow Flag">
+          </td>
+          <td>North Crow Flag</td>
+          <td>Hi'ox, Northern Crow Island</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="assets\Central.svg" alt="Central Crow Flag">
+          </td>
+          <td>1st Empire of the Crow Flag</td>
+          <td>Avi?ox, Central Crow Island</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
