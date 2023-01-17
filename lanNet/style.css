@@ -56,7 +56,6 @@
 
   .dropdown{
       position: relative;
-      right: 30%;
       width: 25%;
       opacity: 0;
       background-color: var(--nav);
