@@ -1,7 +1,7 @@
 // Elements
 const body = document.body;
-const darkButton = document.getElementById('darkb');
-const lightButton = document.getElementById('lightb');
+const darkButton = document.getElementById('dark');
+const lightButton = document.getElementById('light');
 
 // Events
 darkButton.onclick = () => {
