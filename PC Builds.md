@@ -109,5 +109,35 @@ Microsoft Windows 10 Pro Retail - Download 32/64-bit  ($199.00 @ Newegg)
 - As a streamer, you'd need some storage for VODs & videos. One great way to store video & VODs (or movies), is to setup your own Network-Attached Storage (NAS), and why not start by getting hard drives which would eventually be added to a self-made NAS. (Asustor sells their Drivestor 4 Pro with 4 bays for around $420).
 ## Total: $7981.43 (-$18.57)
 
-# Me: $10000
-Sure, it would be an unlimited budget, but let's be reasonable. $10 000 is a lot and should be enough for a PC.
+# Me: $69000
+Sure, it would be an unlimited budget, but let's be reasonable. What would a fully maxed-out setup be?
+
+Here's what I made:
+### PCPartPicker Part List: 
+https://pcpartpicker.com/list/qD2qfv
+
+## CPU: 
+AMD Threadripper 3990X 2.9 GHz 64-Core Processor  ($7999.99 @ Amazon) 
+## CPU Cooler: 
+Asus ROG RYUJIN II 71.6 CFM Liquid CPU Cooler  ($399.99 @ Amazon) 
+## Motherboard: 
+Gigabyte TRX40 DESIGNARE XL ATX sTRX4 Motherboard  ($1449.99 @ Amazon) 
+## Memory: 
+G.Skill Trident Z Royal 256 GB (8 x 32 GB) DDR4-3600 CL18 Memory  ($1599.00 @ Amazon) 
+## Storage: 
+4x Sabrent Rocket 4 Plus 8 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive  ($4799.96 @ B&H)  
+## Video Card: 
+PNY VCQGV100-PB Quadro GV100 32 GB Video Card  ($10560.00 @ B&H) 
+## Case: 
+Corsair Graphite Series 780T ATX Full Tower Case  ($750.70 @ Amazon) 
+## Power Supply: 
+Silverstone HELA 2050 W Fully Modular ATX Power Supply  ($731.53 @ Amazon) 
+## Operating System: 
+Microsoft Windows 10 Pro Retail - Download 32/64-bit  ($199.00 @ Newegg) 
+## Monitor: 
+4x Asus ProArt Display PA32UCG-K 32.0" 3840 x 2160 120 Hz Monitor  ($13196.00 @ B&H) 
+## External Storage: 
+Sabrent Rocket XTRM-Q 16 TB External SSD  ($2399.98 @ Amazon) 
+## UPS: 
+APC SURT20KRMXLT UPS  ($22186.17 @ Dell Technologies) 
+## Total: $66272.31
