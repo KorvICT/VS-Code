@@ -67,6 +67,7 @@ Corsair RM1000x (2021) 1000 W 80+ Gold Certified Fully Modular ATX Power Supply 
 - Okay, this is quite an interesting decision. What person needs a 1000 W Power Supply, on a 321 W (estimated) PC? Lots of leeway and excess for more power-hungry components in future.
 ## Operating System: 
 Microsoft Windows 10 Pro Retail - Download 32/64-bit  ($264.99 @ The Source) 
+- The digital download is more expensive, but is easier for installation, and for upgrading later to Windows 11. Also went for the pro version, because the pro version has more control over settings.
 ## Total: $2486.73 (-$13.27)
 
 # "Cobra": $8000
@@ -84,20 +85,29 @@ Asus ROG RYUJIN II ARGB 70.07 CFM Liquid CPU Cooler  ($495.00 @ Amazon)
 - Finding a CPU cooler for a big CPU is not easy. But this liquid cooler should last for a while, and keep this powerhouse of a CPU running smoothly.
 ## Motherboard: 
 Asus ROG ZENITH EXTREME ALPHA EATX sTR4 Motherboard  ($1199.99 @ Amazon) 
+- The Threadripper CPU has a very different socket type (sTR4), which would require a specialised motherboard, and ROG is one of the trusted in the gaming market.
 ## Memory: 
 G.Skill Trident Z Royal Elite 128 GB (8 x 16 GB) DDR4-3600 CL14 Memory  ($1299.99 @ Newegg) 
-- Yes. I went there: 128 GB. This is ridiculous, but for a gamer, good equipment is everything.
+- Yes. I went there: 128 GB. This is ridiculous, but for a gamer, good equipment is everything. 128 GB should be more than enough to tackle anything put in its way.
 ## Storage: 
 Samsung 870 QVO 8 TB 2.5" Solid State Drive  ($649.00 @ Amazon) 
+- Gamers would need a lot of storage for games, videos and VODs. 8 TB isn't a lot, but is a great start and should last a while at least. More storage would be needed as the game library scales.
 ## Video Card: 
-NVIDIA Founders Edition GeForce RTX 4080 16 GB Video Card  ($1396.99 @ Amazon) 
+NVIDIA Founders Edition GeForce RTX 4080 16 GB Video Card  ($1396.99 @ Amazon)
+- With $8000, you can go all out for graphics. The 4080 16GB video card is one of the most powerful in the present years, and for gaming, good & powerful equipment would mean everything. 
 ## Case: 
 Thermaltake Level 20 ATX Full Tower Case  ($1009.98 @ Amazon) 
+- Though it's an older case, it still is reliable for the price point. The design of the case is also unique with the three hinged tempered glass doors.
 ## Power Supply: 
 Silverstone HELA 2050 W Fully Modular ATX Power Supply  ($731.53 @ Amazon) 
+- I don't know any normal person who needs a 2050 Watt Power Supply. However, this gives a lot of leeway for more powerful equipment, so equipment can easily be upgraded, replaced, and you'd have enough power for anything.
 ## Operating System: 
 Microsoft Windows 10 Pro Retail - Download 32/64-bit  ($199.00 @ Newegg) 
-## Total: $7881.43 (-$118.57)
+- The digital download is more expensive, but is easier for installation, and for upgrading later to Windows 11 (probably hold off for now). Also went for the pro version, because the pro version has more control over settings.
+## Bonus:
+2 x Seagate Barracuda Compute 2 TB 3.5" 7200 RPM Internal Hard Drive  ($100 @ Amazon) 
+- As a streamer, you'd need some storage for VODs & videos. One great way to store video & VODs (or movies), is to setup your own Network-Attached Storage (NAS), and why not start by getting hard drives which would eventually be added to a self-made NAS. (Asustor sells their Drivestor 4 Pro with 4 bays for around $420).
+## Total: $7981.43 (-$18.57)
 
-# Me: $10 000
+# Me: $10000
 Sure, it would be an unlimited budget, but let's be reasonable. $10 000 is a lot and should be enough for a PC.
