@@ -1,13 +1,12 @@
-// Elements
-const body = document.body;
-const darkButton = document.getElementById('dark');
-const lightButton = document.getElementById('light');
+const themeSelector = document.getElementById('theme-selector');
+const body = document.querySelector('body');
 
-// Events
-darkButton.onclick = () => {
-    body.classList.replace('light','dark');
-}
-
-lightButton.onclick = () => {
-    body.classList.replace('dark','light');
-}
+themeSelector.addEventListener('change', () => {
+  if (themeSelector.value === 'theme-dark') {
+    body.classList.add('theme-dark');
+    body.classList.remove('theme-light');
+  } else if (themeSelector.value === 'theme-light') {
+    body.classList.add('theme-light');
+    body.classList.remove('theme-dark');
+  }
+});
