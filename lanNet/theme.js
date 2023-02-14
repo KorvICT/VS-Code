@@ -1,6 +1,6 @@
 const bodyElement = document.querySelector('body');
-const lightThemeButton = document.querySelector('.light-button');
-const darkThemeButton = document.querySelector('.dark-button');
+const lightThemeButton = document.querySelector('#light-button');
+const darkThemeButton = document.querySelector('#dark-button');
 
 lightThemeButton.addEventListener('click', () => {
   bodyElement.classList.remove('dark-theme');
