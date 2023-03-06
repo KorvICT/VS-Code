@@ -34,11 +34,11 @@ $\def\srt{\sqrt{2}}$
 
 * Basic (non-discrete) Calculus
     * Derivatives:
-        * $\frac{d}{dx}f(x)$
+        * $\ddx f(x)$
     * Integrals:
         * $\int f(x)\ dx$
     * Fundamental Theorem of Calculus
-        * $\frac{d}{dx}\int f(x)\ dx=f(x)$
+        * $\ddx \int f(x)\ dx=f(x)$
 * Binomial Theorem
     * $$(a+b)^x=\sum_{n=0}^{\inf} {x\choose n}a^nb^{x-n}$$
 
@@ -108,7 +108,6 @@ $\fd f(x)+\fd g(x)=\fd[f(x)+g(x)]\land\fd af(x)=a\fd f(x)$ $\therefore \fd \text
 * **Example:**
     $9=1+3+5$
     $$9=\sum_{n=0}^{2}\fd n^2$$
-
     $$x^2=\sum_{n=0}^{x-1}\fd n^2$$
 
 ---
