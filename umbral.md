@@ -181,7 +181,7 @@ $\therefore \fd x_n=nx_{n-1}$
 
 ## Conversion Operator: $\umb\text{ and }\umbi$
 
-$$\defi \ \umb=x^n\xrightarrow{\umb}\;x_n$$
+$$\defi \ \umb:x^n\xrightarrow{\umb}\;x_n$$
 
 $$\begin{array}{ccc} x^n & \xrightarrow{\opD}\;& nx^{n-1}\\ \umb\downarrow & & \umb\downarrow \\ x_n & \xrightarrow{\fd}\;& nx_{n-1} \end{array}$$
 
@@ -242,7 +242,7 @@ $\therefore \umb e^{ax}=(a+1)^x$
 
 ---
 
-## Using Binomials to Compute $\umb$
+## Using Binomials to Compute $\umb \sin,\cos,\ln$
 
 $\sin x=\frac{-i}{2}(e^{ix}-e^{-ix})$
 $\umb \sin x=\frac{-i}{2}(\umb e^{ix}-\umb e^{-ix})$
@@ -260,7 +260,7 @@ $\umb \ln x=H_{x-1}$
 $\opD e^x=e^x \rel \fd 2^x=2^2$
 $\opD \sin x= \cos x \rel \fd\umb\sin x=\umb\cos x$
 
-## Questions:
+## Unanswered Questions:
 
 $\umb e^{-x}=0?$
 $(\umb\sin x)^2+(\umb\cos x)^2=\umb e^x$
