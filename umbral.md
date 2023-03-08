@@ -173,6 +173,7 @@ $(x+1)_n=(x+1)x_{n-1}$
 
 * $\fd x_n=(x+1)_n-x_n$
     * $\fd x_n=(x+1)x_{n-1}-x_{n-1}(x-n+1)$
+    * $\fd x_n=(x+1-x+n-1)x_{n-1}$
     * $\fd x_n=nx_{n-1}$
 
 $\therefore \fd x_n=nx_{n-1}$
@@ -181,9 +182,9 @@ $\therefore \fd x_n=nx_{n-1}$
 
 ## Conversion Operator: $\umb\text{ and }\umbi$
 
-$$\defi \ \umb:x^n\xrightarrow{\umb}\;x_n$$
+$$\defi \ \umb:x^n\rightarrow x_n$$
 
-$$\begin{array}{ccc} x^n & \xrightarrow{\opD}\;& nx^{n-1}\\ \umb\downarrow & & \umb\downarrow \\ x_n & \xrightarrow{\fd}\;& nx_{n-1} \end{array}$$
+$$\begin{array}{ccc} x^n & \xrightarrow{\opD}\; & nx^{n-1}\\ \umb\downarrow & & \umb\downarrow \\ x_n & \xrightarrow{\fd}\;& nx_{n-1} \end{array}$$
 
 $\umb\opD x^n=\fd\umb x^n$
 $\umb\opD=\fd\umb$
@@ -257,7 +258,7 @@ $\umb \ln x=H_{x-1}$
 
 ## Relations
 
-$\opD e^x=e^x \rel \fd 2^x=2^2$
+$\opD e^x=e^x \rel \fd 2^x=2^x$
 $\opD \sin x= \cos x \rel \fd\umb\sin x=\umb\cos x$
 
 ## Unanswered Questions:
