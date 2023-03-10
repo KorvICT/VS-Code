@@ -43,7 +43,7 @@
   }
 
   .menuitem{
-    width: max-content;
+    width: 1fr;
     height: 100%;
     text-align: center;
     background-color: var(--nav);
