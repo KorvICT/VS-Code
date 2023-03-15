@@ -1,9 +1,6 @@
 const themeToggle = document.getElementById("theme");
 const body = document.body;
-
-function start(){
-    themeToggle.addEventListener("click",toggle,false);
-}
+themeToggle.addEventListener("click",toggle,false);
 
 function toggle(){
     if(body.classList.contains("dark")){
@@ -13,5 +10,3 @@ function toggle(){
         body.classList.replace("light","dark");
     }
 }
-
-window.addEventListener("load",start,false);
