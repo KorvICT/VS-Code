@@ -1,16 +1,9 @@
 :root{
     --nav: #565656;
-  }
-
-  .dark{
     --bg: #000000;
     --text: #FFFFFF;
   }
 
-  .light{
-    --bg: #FFFFFF;
-    --text: #000000;
-  }
   *{
     margin: 0;
     padding: 0;
