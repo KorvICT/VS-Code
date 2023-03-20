@@ -21,12 +21,12 @@
 .col{background-color: gold;}
 .col:hover{
     background-color: gray;
-    transition: background-colour .2s ease-in-out;
+    transition: background-colour 2s ease-in-out;
 }
 .end{background-color: gray;}
 .end:hover{
     background-color: blue;
-    transition: background-colour .2s ease-in-out;
+    transition: background-colour 2s ease-in-out;
 }
 #I:hover{animation: ens 2s ease-in-out;}
 #T:hover{animation: col 2s ease-in-out;}
