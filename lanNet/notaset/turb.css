@@ -11,25 +11,23 @@
     from{color: gray;}
     to{color: blue;}
 }
-/*Section Animation*/
-@keyframes Ens {
-    from{background-color: gray;}
-    to{background-color: black;}
-}
-@keyframes Col {
-    from{background-color: gold;}
-    to{background-color: gray;}
-}
-@keyframes ITV {
-    from{background-color: gray;}
-    to{background-color: blue;}
-}
 /*Style*/
 .section{width: calc(100%/3);}
-.ens:hover{animation: Ens 1s ease-in-out;}
+.ens{background-color: gray;}
+.ens:hover{
+    background-color:black; 
+    transition: background-colour 2s ease-in-out;
+}
 .col{background-color: gold;}
-.col:hover{animation: Col 1s ease-in-out;}
-.end:hover{animation: ITV 1s ease-in-out;}
+.col:hover{
+    background-color: gray;
+    transition: background-colour .2s ease-in-out;
+}
+.end{background-color: gray;}
+.end:hover{
+    background-color: blue;
+    transition: background-colour .2s ease-in-out;
+}
 #I:hover{animation: ens 2s ease-in-out;}
 #T:hover{animation: col 2s ease-in-out;}
 #V:hover{animation: itv 2s ease-in-out;}
