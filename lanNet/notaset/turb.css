@@ -14,17 +14,11 @@
 /*Style*/
 .section{width: calc(100%/3);}
 .ens{background-color: gray;}
-.ens:hover{
-    background-color:black; 
-}
+.ens:hover{background-color:black;}
 .col{background-color: gold;}
-.col:hover{
-    background-color: gray;
-}
+.col:hover{background-color: gray;}
 .end{background-color: gray;}
-.end:hover{
-    background-color: blue;
-}
+.end:hover{background-color: blue;}
 #I:hover{animation: ens 2s ease-in-out;}
 #T:hover{animation: col 2s ease-in-out;}
 #V:hover{animation: itv 2s ease-in-out;}
