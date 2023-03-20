@@ -26,10 +26,10 @@
 }
 /*Style*/
 .section{width: calc(100%/3);}
-.ens:hover{animation: Ens 1s ease-in-out infinite;}
+.ens:hover{animation: Ens 1s ease-in-out;}
 .col{background-color: gold;}
-.col:hover{animation: Col 1s ease-in-out infinite;}
-.end:hover{animation: ITV 1s ease-in-out infinite;}
+.col:hover{animation: Col 1s ease-in-out;}
+.end:hover{animation: ITV 1s ease-in-out;}
 #I:hover{animation: ens 2s ease-in-out;}
 #T:hover{animation: col 2s ease-in-out;}
 #V:hover{animation: itv 2s ease-in-out;}
