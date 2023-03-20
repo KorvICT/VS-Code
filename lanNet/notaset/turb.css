@@ -1,0 +1,35 @@
+/*Text Animation*/
+@keyframes col {
+    from{color: gold;}
+    to{color: gray;}
+}
+@keyframes ens {
+    from{color: aqua;}
+    to{color: #121212;}
+}
+@keyframes itv {
+    from{color: gray;}
+    to{color: blue;}
+}
+/*Section Animation*/
+@keyframes Ens {
+    from{background-color: gray;}
+    to{background-color: black;}
+}
+@keyframes Col {
+    from{background-color: gold;}
+    to{background-color: gray;}
+}
+@keyframes ITV {
+    from{background-color: gray;}
+    to{background-color: blue;}
+}
+/*Style*/
+.section{width: calc(100%/3);}
+.ens:hover{animation: Ens 1s ease-in-out infinite;}
+.col{background-color: gold;}
+.col:hover{animation: Col 1s ease-in-out infinite;}
+.end:hover{animation: ITV 1s ease-in-out infinite;}
+#I:hover{animation: ens 2s ease-in-out;}
+#T:hover{animation: col 2s ease-in-out;}
+#V:hover{animation: itv 2s ease-in-out;}
