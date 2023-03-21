@@ -1,16 +1,3 @@
-/*Text Animation*/
-@keyframes col {
-    from{color: gold;}
-    to{color: gray;}
-}
-@keyframes ens {
-    from{color: aqua;}
-    to{color: #121212;}
-}
-@keyframes itv {
-    from{color: gray;}
-    to{color: blue;}
-}
 /*Style*/
 .section{width: calc(100%/3);}
 .ens{background-color: gray;}
@@ -19,6 +6,18 @@
 .col:hover{background-color: gray;}
 .end{background-color: gray;}
 .end:hover{background-color: blue;}
-#I:hover{animation: ens 2s ease-in-out;}
-#T:hover{animation: col 2s ease-in-out;}
-#V:hover{animation: itv 2s ease-in-out;}
+#I{color: slategray;}
+#I:hover{
+    color: black;
+    transition: color .2s ease-in-out;
+}
+#T{color: gold;}
+#T:hover{
+    color: gray;
+    transition: color .2s ease-in-out;
+}
+#V{color: yellowgreen;}
+#V:hover{
+    color: blue;
+    transition: color .2s ease-in-out;
+}
