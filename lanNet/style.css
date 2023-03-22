@@ -46,6 +46,8 @@
     background-color: #9a9a9a;
     transition: background-color .2s ease-in-out;
   }
+  
+  .home:hover{background-color: lightgreen;}
 
   .split{
     width: 100%;
