@@ -6,18 +6,10 @@
 .col:hover{background-color: gray;}
 .end{background-color: gray;}
 .end:hover{background-color: blue;}
+.letters:hover{transition: color .2s ease-in-out;}
 #I{color: slategray;}
-#I:hover{
-    color: black;
-    transition: color .2s ease-in-out;
-}
+#I:hover{color: black;}
 #T{color: gold;}
-#T:hover{
-    color: gray;
-    transition: color .2s ease-in-out;
-}
+#T:hover{color: gray;}
 #V{color: yellowgreen;}
-#V:hover{
-    color: blue;
-    transition: color .2s ease-in-out;
-}
+#V:hover{color: blue;}
