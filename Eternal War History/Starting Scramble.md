@@ -1,6 +1,6 @@
 # The Starting Scramble (1901-1904)
 ## Spring, 1901
-- North Sea & Burgundy are demilitarized
+- English Channel & Burgundy are demilitarized
 - Britain enters North Sea
 - Germany enters Holland
 - France enters Mid-Atlantic & Iberia (Spain)
