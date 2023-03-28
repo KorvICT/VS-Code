@@ -182,7 +182,7 @@ $\therefore \fd x_n=nx_{n-1}$
 
 ## Conversion Operator: $\umb\text{ and }\umbi$
 
-$$\defi \ \umb:x^n\rightarrow x_n$$
+$$\defi \ \umb:x^n\to x_n$$
 
 $$\begin{array}{ccc} x^n & \xrightarrow{\opD}\; & nx^{n-1}\\ \umb\downarrow & & \umb\downarrow \\ x_n & \xrightarrow{\fd}\;& nx_{n-1} \end{array}$$
 
