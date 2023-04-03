@@ -75,7 +75,7 @@ nav {
   .fa-twitter:hover {
     color: #1da1f2;
   }
-  
+
 /*Main specific Styling*/
 main {
     flex-grow: 1;
@@ -147,6 +147,10 @@ main > article > .a-title, main > article > .a-nav {
  
  main > article:nth-child(4) > .a-img {
     background-image: conic-gradient(blue, purple, black, red, yellow, green);
+ }
+ 
+ main > article:nth-child(5) > .a-img{
+    background-image: linear-gradient(blue, black);
  }
  
  main > article > .a-img {
