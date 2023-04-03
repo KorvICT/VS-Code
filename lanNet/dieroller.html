@@ -19,6 +19,20 @@
         margin: 0;
         margin-top: 10px;
       }
+      main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25vh;
+      }
+      #roller{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 5rem;
+        cursor: pointer;
+      }
     </style>
     <script src="dieroller.js"></script>
   </head>
@@ -51,9 +65,10 @@
         <a href="#">Contact</a>
       </div>
     </nav>
-    <form>
-      <input type="button" id="roller" value="Roll Dice">
-    </form>
+    <main>
+    <button type="button" id="roller">
+      <i class="fa-solid fa-dice"></i>
+    </button>
     <ul>
       <li>
         <img src="dice/blank.png" alt="blank image" id="die1">
@@ -68,5 +83,6 @@
         <img src="dice/blank.png" alt="blank image" id="die4">
       </li>
     </ul>
+    </main>
   </body>
 </html>
