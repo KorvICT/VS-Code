@@ -153,6 +153,10 @@ main > article > .a-title, main > article > .a-nav {
     background-image: linear-gradient(blue, black);
  }
  
+ main > article:nth-child(6) > .a-img{
+   background-image: linear-gradient(darkred, black);
+ }
+ 
  main > article > .a-img {
     background-position: center;
     background-size: cover;
