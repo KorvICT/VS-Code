@@ -4,109 +4,123 @@
     <meta charset="utf-8">
     <title>lanNet - Projects</title>
     <link rel="icon" type="image/x-icon" href="assets/lanNet.svg">
-    <link rel="stylesheet" href="style.css">
-    <style media="screen">
-      img{
-        width: 45%;
-      }
-      .korv{
-        display: flex;
-        justify-content: center;
-      }
-      .world{
-        text-align: center;
-      }
-      table{
-        width: 100%;
-      }
-      td{
-        text-align: center;
-        border: 2px solid var(--text);
-      }
-    </style>
+    <link rel="stylesheet" href="style-projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rubik&display=swap" rel="stylesheet">
+    <script src="carousel.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Projects</h1>
-    </header>
     <nav>
-      <div class="menuitem home">
-        <a href="home.html">Home</a>
+      <div id="logo" class="menuitem">
+        <a href="#">
+          <i class="fa-solid fa-network-wired"></i>
+        </a>
       </div>
-      <div class="menuitem">
-        <a href="music.html">Music</a>
+      <div id="links" class="menuitem">
+        <a href="#">About</a>
+        <a href="#">Projects</a>
       </div>
-      <div class="menuitem">
-        <a href="notaset.html">Nota-Set</a>
+      <div id="socials" class="menuitem">
+        <a href="#" id="twitter">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-codepen"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-github-alt"></i>
+        </a>
       </div>
-      <div class="menuitem">
-        <a href="dieroller.html">Dice Roller</a>
+      <div id="contact" class="menuitem">
+        <a href="#">Contact</a>
       </div>
     </nav>
     <main>
-      <div class="korv">
-        <img src="assets\Korv Flag.svg" alt="Crow Island Flag">
-      </div>
-      <article class="world">
-        <h2>Creating a World</h2>
-        <p>How do you make a world? <br>
-          I mean, how do you create a culture for a world? <br>
-          Art styles, language, music, games. How can you craft all of them? <br>
-          Here's an example: Crow Island. <br>
-          Crow Island is an island I created originally for a composition called "The Loop". <br>
-          The flag above is the flag of the entirety of the island. each of the flags below is about a specific location on the island.
-        </p>
-        <hr>
-      </article>
-      <table>
-        <tr>
-          <th>Flag</th>
-          <th>Flag Name</th>
-          <th>Location</th>
-        </tr>
-        <tr>
-          <td>
-            <img src="assets\Korv Flag.svg" alt="Crow Island Flag">
-          </td>
-          <td>Unity Flag</td>
-          <td>Crow Island</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="assets\South.svg" alt="Southern Crow Flag">
-          </td>
-          <td>South Crow Flag</td>
-          <td>Pi'tao, Southern Crow Island</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="assets\West.svg" alt="Western Crow Flag">
-          </td>
-          <td>West Crow Flag</td>
-          <td>Tri'on, Western Crow Island</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="assets\East.svg" alt="Eastern Crow Flag">
-          </td>
-          <td>East Crow Flag</td>
-          <td>Su'on, Eastern Crow Island</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="assets\North.svg" alt="Northern Crow Flag">
-          </td>
-          <td>North Crow Flag</td>
-          <td>Hi'ox, Northern Crow Island</td>
-        </tr>
-        <tr>
-          <td>
-            <img src="assets\Central.svg" alt="Central Crow Flag">
-          </td>
-          <td>1st Empire of the Crow Flag</td>
-          <td>Avi?ox, Central Crow Island</td>
-        </tr>
-      </table>
+      <article data-index="0" data-status="active">
+        <div class="a-img a-section"></div>
+        <div class="a-desc a-section">
+           <p>
+              This is a recreation (from scratch) of <a class="source-link" href="https://www.dylanbrouwer.design/work" target="_blank">dylanbrouwer.design/work</a>. See how I did it: <a class="yt-link" href="https://youtu.be/nG2IyH43xMU" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+           </p>
+        </div>
+        <div class="a-title a-section">
+           <h2>lanNet, Reimagined</h2>
+        </div>
+        <div class="a-nav a-section">
+           <button class="a-nav-button" type="button" onclick="leftClick()">
+              <i class="fa-solid fa-arrow-left"></i>
+           </button>
+           <button class="a-nav-button" type="button" onclick="rightClick()">
+              <i class="fa-solid fa-arrow-right"></i>
+           </button>
+        </div>
+     </article>
+     <article data-index="1" data-status="inactive">
+        <div class="a-img a-section"></div>
+        <div class="a-desc a-section">
+           <p>
+              What is my top songs / albums of the time? Let's see: <a href="#">
+                 <i class="fa-solid fa-record-vinyl"></i>
+              </a>
+           </p>
+        </div>
+        <div class="a-title a-section">
+           <h2>Music</h2>
+        </div>
+        <div class="a-nav a-section">
+           <button class="a-nav-button" type="button" onclick="leftClick()">
+              <i class="fa-solid fa-arrow-left"></i>
+           </button>
+           <button class="a-nav-button" type="button" onclick="rightClick()">
+              <i class="fa-solid fa-arrow-right"></i>
+           </button>
+        </div>
+     </article>
+     <article data-index="2" data-status="inactive">
+        <div class="a-img a-section"></div>
+        <div class="a-desc a-section">
+           <p>
+              How does one build a world? Here's how I built mine: <a href="#">
+                 <i class="fa-solid fa-globe"></i>
+              </a>
+           </p>
+        </div>
+        <div class="a-title a-section">
+           <h2>Krow Island</h2>
+        </div>
+        <div class="a-nav a-section">
+           <button class="a-nav-button" type="button" onclick="leftClick()">
+              <i class="fa-solid fa-arrow-left"></i>
+           </button>
+           <button class="a-nav-button" type="button" onclick="rightClick()">
+              <i class="fa-solid fa-arrow-right"></i>
+           </button>
+        </div>
+     </article>
+     <article data-index="3" data-status="inactive">
+        <div class="a-img a-section"></div>
+        <div class="a-desc a-section">
+           <p>
+              Korv's Plan to Digitise the Future of Notes: <a href="#"><i class="fa-solid fa-folder"></i></a>
+           </p>
+        </div>
+        <div class="a-title a-section">
+           <h2>Nota-Set</h2>
+        </div>
+        <div class="a-nav a-section">
+           <button class="a-nav-button" type="button" onclick="leftClick()">
+              <i class="fa-solid fa-arrow-left"></i>
+           </button>
+           <button class="a-nav-button" type="button" onclick="rightClick()">
+              <i class="fa-solid fa-arrow-right"></i>
+           </button>
+        </div>
+     </article>
     </main>
   </body>
 </html>
