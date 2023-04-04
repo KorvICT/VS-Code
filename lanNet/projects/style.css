@@ -73,6 +73,7 @@
   
   .fa-twitter:hover {
     color: #1da1f2;
+    transition: color 0.2s ease-in-out;
   }
 
  .soc, .pc11, .war, .itv, .pc12, .calc, .poli, .phys{
