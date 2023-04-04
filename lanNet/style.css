@@ -75,6 +75,15 @@
     color: #1da1f2;
   }
 
+ .soc, .pc11, .war, .itv, .pc12, .calc, .poli, .phys{
+  background-color: transparent;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 7rem;
+  cursor: pointer;
+}
 
 .split{
     width: 100%;
@@ -87,9 +96,13 @@
   
   .section{
       height: 100%;
+      display: flex;
       text-align: center;
+      justify-content: center;
+      align-items: center;
       background-color: grey;
       vertical-align: middle;
+      padding-right: 1rem;
   }
   
   .section:hover{
