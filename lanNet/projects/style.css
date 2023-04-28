@@ -77,6 +77,10 @@
     transition: color 0.2s ease-in-out;
   }
 
+  .fa-spotify:hover{
+    color: rgb(30,215,96);
+  }
+
  .soc, .pc11, .war, .itv, .pc12, .calc, .poli, .phys{
   background-color: transparent;
   flex-grow: 1;
