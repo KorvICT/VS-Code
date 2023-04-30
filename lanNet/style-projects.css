@@ -136,27 +136,27 @@ main > article > .a-title, main > article > .a-nav {
 
 /*Article Img Styles*/
  main > article:first-child > .a-img {
-    background-image: conic-gradient(red, yellow, green, blue, purple);
+    background-image: linear-gradient(black, red);
  }
  
  main > article:nth-child(2) > .a-img {
-    background-image: linear-gradient(red, black);
+    background-image: linear-gradient(black, green);
  }
  
  main > article:nth-child(3) > .a-img {
-    background-image: linear-gradient(green, black);
+    background-image: linear-gradient(black, blue);
  }
  
- main > article:nth-child(4) > .a-img {
-    background-image: conic-gradient(blue, purple, black, red, yellow, green);
+ main > article:nth-last-child(3) > .a-img {
+    background-image: conic-gradient(red, black);
  }
  
- main > article:nth-child(5) > .a-img{
-    background-image: linear-gradient(blue, black);
+ main > article:nth-last-child(2) > .a-img {
+   background-image: conic-gradient(green, black);
  }
  
- main > article:nth-child(6) > .a-img{
-   background-image: linear-gradient(darkred, black);
+ main > article:last-child > .a-img{
+   background-image: conic-gradient(blue, black);
  }
  
  main > article > .a-img {
@@ -224,7 +224,7 @@ main > article > .a-title, main > article > .a-nav {
     background-color: rgba(255, 255, 255, 0.02);
  }
  
- main > article > .a-nav > .a-nav-button:nth-child(2) {
+ main > article > .a-nav > .a-nav-button:last-child {
     border-left: 1px solid var(--border);
  }
  
