@@ -166,11 +166,6 @@ main > article > .a-title > h2 {
   margin: 0px;
 }
 
-main > article > .a-title > i {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 4rem;
-}
-
 /*Article Nav Styles*/
 main > article > .a-nav {
   display: flex;
@@ -182,7 +177,8 @@ main > article > .a-nav > .a-nav-button {
   border: none;
   outline: none;
   color: rgba(255, 255, 255, 0.75);
-  font-size: 7rem;
+  font-size: 2.5rem;
+  font-family: 'Rubik',sans-serif;
   cursor: pointer;
 }
 
