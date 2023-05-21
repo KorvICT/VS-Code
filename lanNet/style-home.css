@@ -4,6 +4,7 @@
   --border: rgba(254, 254, 254, 0.15);
   --highlight: rgb(128, 88, 195);
   --yt: rgb(229, 57, 53);
+  --glass: rgba(125, 125, 125, 0.25);
 }
 
 body {
@@ -39,6 +40,7 @@ nav {
   display: flex;
   width: 100%;
   border-bottom: 1px solid var(--border);
+  background-color: var(--glass);
 }
 nav > .menuitem {
   padding: 3rem 2rem;
