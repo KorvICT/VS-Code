@@ -40,7 +40,7 @@ nav {
   display: flex;
   width: 100%;
   border-bottom: 1px solid var(--border);
-  background-color: var(--glass);
+  background-image: linear-gradient(var(--glass), rgba(125,125,125,0));
 }
 nav > .menuitem {
   padding: 3rem 2rem;
