@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rubik&display=swap');
 :root {
-  --bg: rgb(25, 12, 7);
+  --bg: rgb(57, 14, 14);
   --border: rgba(254, 254, 254, 0.15);
   --highlight: rgb(128, 88, 195);
   --yt: rgb(229, 57, 53);
@@ -40,7 +40,7 @@ nav {
   display: flex;
   width: 100%;
   border-bottom: 1px solid var(--border);
-  background-image: linear-gradient(var(--glass), rgba(125,125,125,0));
+  background-image: linear-gradient(var(--glass), rgb(5, 5, 5));
 }
 nav > .menuitem {
   padding: 3rem 2rem;
@@ -113,7 +113,7 @@ main > article > .a-nav {
 
 /*Article Img Styles*/
 main > article > .a-img {
-  background-image: linear-gradient(lightgreen, #4fe34f, #a30057, deeppink);
+  background-image: linear-gradient(rgb(5,5,5), goldenrod, deeppink, rgba(255,255,255,0));
   background-position: center;
   background-size: cover;
 }
@@ -123,6 +123,7 @@ main > article > .a-desc {
   flex-direction: column;
   justify-content: flex-end;
   padding: 4rem;
+  background-image: linear-gradient(rgb(5,5,5),rgba(255,255,255,0));
 }
 
 main > article > .a-desc > .hand {
