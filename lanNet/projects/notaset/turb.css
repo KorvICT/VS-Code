@@ -1,8 +1,0 @@
-/*Style*/
-.section{width: calc(100%/3);}
-.ens{background-color: gray;}
-.ens:hover{background-color:black;}
-.col{background-color: gold;}
-.col:hover{background-color: gray;}
-.end{background-color: gray;}
-.end:hover{background-color: blue;}
