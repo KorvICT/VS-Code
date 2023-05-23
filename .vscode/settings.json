@@ -1,0 +1,6 @@
+{
+    "markdown.marp.enableHtml": true,
+    "emmet.extensionsPath": [
+        "snippets.json"
+    ]
+}
