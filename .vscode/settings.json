@@ -1,6 +1,6 @@
 {
     "markdown.marp.enableHtml": true,
     "emmet.extensionsPath": [
-        "snippets.json"
+        ".vscode/snippets.json"
     ]
 }
