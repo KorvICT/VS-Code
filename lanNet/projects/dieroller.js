@@ -1,7 +1,7 @@
-var die1Img;
-var die2Img;
-var die3Img;
-var die4Img;
+let die1Img;
+let die2Img;
+let die3Img;
+let die4Img;
 
 function start(){
     die1Img = document.getElementById('die1');
@@ -9,7 +9,7 @@ function start(){
     die3Img = document.getElementById('die3');
     die4Img = document.getElementById('die4');
 
-    var button = document.getElementById('roller');
+    const button = document.getElementById('roller');
     button.addEventListener("click", roller, false);
 }
 
@@ -21,7 +21,7 @@ function roller(){
 }
 
 function setImage(dieImg){
-      var dieValue = Math.floor(Math.random() * 6 + 1);
+      let dieValue = Math.floor(Math.random() * 6 + 1);
       dieImg.setAttribute("src", "dice/die" + dieValue + ".png");
       dieImg.setAttribute("alt", "Die w/ value " + dieValue);
 }
