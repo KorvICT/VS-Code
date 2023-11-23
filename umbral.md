@@ -184,7 +184,7 @@ $\therefore \fd x_n=nx_{n-1}$
 
 $$\defi \ \umb:x^n\to x_n$$
 
-$$\begin{array}{ccc} x^n & \xrightarrow{\opD}\; & nx^{n-1}\\ \umb\downarrow & & \umb\downarrow \\ x_n & \xrightarrow{\fd}\;& nx_{n-1} \end{array}$$
+$$\begin{array}{ccc} x^n & \xrightarrow{\opD}\; & nx^{n-1}\\ \umb\downarrow & & \downarrow\umb \\ x_n & \xrightarrow{\fd}\;& nx_{n-1} \end{array}$$
 
 $\umb\opD x^n=\fd\umb x^n$
 $\umb\opD=\fd\umb$
@@ -264,7 +264,7 @@ $\opD \sin x= \cos x \rel \fd\umb\sin x=\umb\cos x$
 ## Unanswered Questions:
 
 $\umb e^{-x}=0?$
-$(\umb\sin x)^2+(\umb\cos x)^2=\umb e^x$
+$(\umb\sin^2x)+(\umb\cos^2x)=\umb e^x$
 
 ---
 
